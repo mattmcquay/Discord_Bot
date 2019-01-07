@@ -121,9 +121,8 @@ async def on_voice_state_update(before, after):
 if __name__ == "__main__":
     keep_alive()
 
-    ## Need to insert this into the environment var and replace the below
-    ## token = os.environ.get("DISCORD_BOT_SECRET")
-    token = "NTE3OTg2MjgxODE3NTA1ODEy.DuKMig.KzRABzJvurahBXXq6HNemXJV9sU"
+    ##Need to insert this into the environment var and replace the below
+    token = os.environ.get("DISCORD_BOT_SECRET")
     
     client.run(token)
 
